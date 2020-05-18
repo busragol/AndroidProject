@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NewBookActivity"
+    android:orientation="vertical"
+    android:gravity="center"
+    >
+
+
+    <EditText
+        android:id="@+id/author_editTxt"
+        android:layout_width="250dp"
+        android:layout_height="44dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text=""
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="8dp"
+        android:hint="Author"
+        android:background="@drawable/shadow_text"
+        />
+    <EditText
+        android:id="@+id/fee_editTxt"
+        android:layout_width="250dp"
+        android:layout_height="44dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text=""
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="8dp"
+        android:hint="Fee ₺"
+        android:background="@drawable/shadow_text"
+        />
+    <EditText
+        android:id="@+id/title_editTxt"
+        android:layout_width="250dp"
+        android:layout_height="44dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text=""
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="8dp"
+        android:hint="Title"
+        android:background="@drawable/shadow_text"
+        />
+
+    <Spinner
+        android:id="@+id/book_categories_spinner"
+        android:layout_width="250dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="8dp"
+        android:layout_gravity="center_horizontal"
+        android:entries="@array/book_categories"
+        android:background="@drawable/shadow_text"/>
+
+    <Button
+        android:id="@+id/update_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="UPDATE"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/shadow_btn"/>
+
+    <Button
+        android:id="@+id/delete_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DELETE"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/shadow_btn"/>
+
+    <Button
+        android:id="@+id/back_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="8dp"
+        android:text="BACK"
+        android:background="@drawable/shadow_btn"/>
+</LinearLayout>

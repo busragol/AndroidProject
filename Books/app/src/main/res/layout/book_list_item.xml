@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    style="?android:attr/listSeparatorTextViewStyle">
+
+
+    <TextView
+        android:id="@+id/title_txtView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textSize="20sp"
+        android:layout_margin="4dp"
+        />
+
+    <TextView
+        android:id="@+id/author_txtView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:layout_below="@+id/title_txtView"
+        android:textStyle="italic"
+        android:layout_margin="4dp"
+        />
+
+    <TextView
+        android:id="@+id/category_txtView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:text="TextView"
+        android:layout_below="@+id/author_txtView"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/fee_txtView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:text="TextView"
+        android:layout_below="@+id/category_txtView"
+        android:typeface="monospace"
+        />
+
+
+</LinearLayout>
